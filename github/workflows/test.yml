@@ -1,0 +1,17 @@
+name: “Github actions”
+on: push
+jobs:
+  chromatiq:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: 'Setup frontend'
+        run: |
+          cd frontend
+          ls -la
+          yarn global add chromatic-cli
+          yarn install
+      - name: 'Chromatic action'
+        run: |
+          cd frontend
+          npm run chromatic
