@@ -38,7 +38,8 @@
     "build": "react-app-rewired build",
     "test": "react-app-rewired test --env=jsdom",
     "eject": "react-scripts eject",
-    "storybook": "start-storybook"
+    "storybook": "start-storybook",
+    "build-storybook": "build-storybook"
   },
   "eslintConfig": {
     "extends": "react-app"
