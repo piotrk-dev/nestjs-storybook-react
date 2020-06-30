@@ -27,7 +27,7 @@ export const card = () => {
   return (
     <Provider tasksStore={tasksStore}>
       <Task
-        title="This is a card"
+        title="This is a card changed"
         description="some fancy description"
         status="OPEN"
       />
