@@ -16,7 +16,7 @@ export const card = () => {
       <Task
         title="This is a card changed"
         description="some fancy description"
-        status="CLOSED"
+        status="IN_PROGRESS"
       />
     </Provider>
   );
